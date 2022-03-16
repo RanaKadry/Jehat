@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Cairo-SemiBold.ttf">
+            <string>Cairo-SemiBold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="VoiceNoteCollectionViewCell" customModule="Jihat" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="100"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="414" height="100"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9xx-ne-ATr">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="33"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qzo-Yy-5pe">
+                                <rect key="frame" x="16" y="6" width="25" height="21"/>
+                                <fontDescription key="fontDescription" name="Cairo-SemiBold" family="Cairo" pointSize="11"/>
+                                <color key="textColor" name="Text3Color"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xqM-cS-Jjo">
+                                <rect key="frame" x="373" y="6" width="25" height="21"/>
+                                <fontDescription key="fontDescription" name="Cairo-SemiBold" family="Cairo" pointSize="11"/>
+                                <color key="textColor" name="Text3Color"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="localizationKey" value="expected_completion_date"/>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" name="Background4Color"/>
+                        <constraints>
+                            <constraint firstItem="xqM-cS-Jjo" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="Qzo-Yy-5pe" secondAttribute="trailing" constant="16" id="Ffz-44-aaE"/>
+                            <constraint firstAttribute="trailing" secondItem="xqM-cS-Jjo" secondAttribute="trailing" constant="16" id="GzD-sE-JUB"/>
+                            <constraint firstAttribute="height" constant="33" id="JwF-3Z-Fo8"/>
+                            <constraint firstItem="Qzo-Yy-5pe" firstAttribute="leading" secondItem="9xx-ne-ATr" secondAttribute="leading" constant="16" id="Yya-kV-nus"/>
+                            <constraint firstItem="Qzo-Yy-5pe" firstAttribute="centerY" secondItem="9xx-ne-ATr" secondAttribute="centerY" id="kfk-Z5-W8u"/>
+                            <constraint firstItem="xqM-cS-Jjo" firstAttribute="centerY" secondItem="9xx-ne-ATr" secondAttribute="centerY" id="nQc-AW-l4t"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="9"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="cornerTopLeft" value="YES"/>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="cornerTopRight" value="YES"/>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="cornerBottomLeft" value="NO"/>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="cornerBottomRight" value="NO"/>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dyR-Oy-34o">
+                        <rect key="frame" x="16" y="49" width="331" height="35"/>
+                        <fontDescription key="fontDescription" name="Cairo-SemiBold" family="Cairo" pointSize="16"/>
+                        <color key="textColor" name="Text2Color"/>
+                        <nil key="highlightedColor"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="string" keyPath="localizationKey" value="jandalah_company"/>
+                        </userDefinedRuntimeAttributes>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0W6-p9-zil">
+                        <rect key="frame" x="363" y="49" width="35" height="35"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="0W6-p9-zil" secondAttribute="height" id="Tfh-8f-GM2"/>
+                            <constraint firstAttribute="width" constant="35" id="qm8-9B-vb5"/>
+                        </constraints>
+                        <state key="normal" image="play-button"/>
+                    </button>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <color key="backgroundColor" name="Background3Color"/>
+            <constraints>
+                <constraint firstItem="dyR-Oy-34o" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="16" id="A3N-8q-r1e"/>
+                <constraint firstItem="9xx-ne-ATr" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="MaN-tk-0lE"/>
+                <constraint firstItem="9xx-ne-ATr" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="Mdp-AB-uvV"/>
+                <constraint firstItem="0W6-p9-zil" firstAttribute="leading" secondItem="dyR-Oy-34o" secondAttribute="trailing" constant="16" id="N31-l5-L78"/>
+                <constraint firstItem="dyR-Oy-34o" firstAttribute="top" secondItem="9xx-ne-ATr" secondAttribute="bottom" constant="16" id="RO2-XG-wie"/>
+                <constraint firstAttribute="trailing" secondItem="0W6-p9-zil" secondAttribute="trailing" constant="16" id="eBs-fM-n4b"/>
+                <constraint firstAttribute="trailing" secondItem="9xx-ne-ATr" secondAttribute="trailing" id="kkH-bp-b29"/>
+                <constraint firstAttribute="bottom" secondItem="dyR-Oy-34o" secondAttribute="bottom" constant="16" id="o86-rA-Fef"/>
+                <constraint firstItem="0W6-p9-zil" firstAttribute="centerY" secondItem="dyR-Oy-34o" secondAttribute="centerY" id="rcz-rD-SMU"/>
+            </constraints>
+            <userDefinedRuntimeAttributes>
+                <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                    <real key="value" value="0.5"/>
+                </userDefinedRuntimeAttribute>
+                <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                    <color key="value" name="Text4Color"/>
+                </userDefinedRuntimeAttribute>
+                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                    <real key="value" value="9"/>
+                </userDefinedRuntimeAttribute>
+                <userDefinedRuntimeAttribute type="color" keyPath="shadow_Color">
+                    <color key="value" name="SecondaryShadow"/>
+                </userDefinedRuntimeAttribute>
+                <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                    <real key="value" value="0.59999999999999998"/>
+                </userDefinedRuntimeAttribute>
+                <userDefinedRuntimeAttribute type="number" keyPath="shadowOffsetX">
+                    <real key="value" value="1"/>
+                </userDefinedRuntimeAttribute>
+                <userDefinedRuntimeAttribute type="number" keyPath="shadowOffsetY">
+                    <real key="value" value="1"/>
+                </userDefinedRuntimeAttribute>
+            </userDefinedRuntimeAttributes>
+            <connections>
+                <outlet property="playPauseButton" destination="0W6-p9-zil" id="IfZ-rH-c4b"/>
+                <outlet property="textMessageLabel" destination="dyR-Oy-34o" id="OUz-Dv-kYg"/>
+                <outlet property="textMessageOwnerLabel" destination="Qzo-Yy-5pe" id="TVN-Kj-KlA"/>
+                <outlet property="textMessageSendDateLabel" destination="xqM-cS-Jjo" id="aNB-Ro-Cpo"/>
+            </connections>
+            <point key="canvasLocation" x="44.927536231884062" y="55.580357142857139"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="play-button" width="42.5" height="42.5"/>
+        <namedColor name="Background3Color">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Background4Color">
+            <color red="0.96470588235294119" green="0.97647058823529409" blue="0.99215686274509807" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="SecondaryShadow">
+            <color red="0.0" green="0.0" blue="0.0" alpha="0.15999999642372131" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Text2Color">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Text3Color">
+            <color red="0.0" green="0.12156862745098039" blue="0.30588235294117649" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Text4Color">
+            <color red="0.11764705882352941" green="0.55294117647058827" blue="0.90196078431372551" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

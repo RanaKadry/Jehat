@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="OrderDetailsViewController" customModule="Jihat" customModuleProvider="target">
+            <connections>
+                <outlet property="appNavigationBar" destination="LYZ-gI-ZJT" id="hZB-XF-pyW"/>
+                <outlet property="childrenViewControllerContainerView" destination="LFq-JI-Yhs" id="S6M-87-HqW"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LYZ-gI-ZJT" customClass="AppNavigationBar" customModule="Jihat" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="230"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" priority="999" constant="230" id="OEI-Xc-cqa"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="prefersLargeTitle" value="YES"/>
+                        <userDefinedRuntimeAttribute type="string" keyPath="localizedTitle" value="order_subject"/>
+                        <userDefinedRuntimeAttribute type="string" keyPath="backButtonImageName" value="back"/>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="showContactJihat" value="NO"/>
+                    </userDefinedRuntimeAttributes>
+                </view>
+                <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LFq-JI-Yhs">
+                    <rect key="frame" x="0.0" y="230" width="414" height="666"/>
+                </containerView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" name="BackgroundPrimaryColor"/>
+            <constraints>
+                <constraint firstItem="LFq-JI-Yhs" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="03o-sd-FZ9"/>
+                <constraint firstAttribute="bottom" secondItem="LFq-JI-Yhs" secondAttribute="bottom" id="2IF-PE-vvX"/>
+                <constraint firstItem="LYZ-gI-ZJT" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="L7L-gT-IOf"/>
+                <constraint firstItem="LFq-JI-Yhs" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="aNR-85-py9"/>
+                <constraint firstItem="LYZ-gI-ZJT" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="aRr-Sz-3bh"/>
+                <constraint firstItem="LFq-JI-Yhs" firstAttribute="top" secondItem="LYZ-gI-ZJT" secondAttribute="bottom" id="pi7-cJ-pUu"/>
+                <constraint firstItem="LYZ-gI-ZJT" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="xVT-7g-Idh"/>
+            </constraints>
+            <point key="canvasLocation" x="137.68115942028987" y="77.678571428571431"/>
+        </view>
+    </objects>
+    <resources>
+        <namedColor name="BackgroundPrimaryColor">
+            <color red="0.96470588235294119" green="0.96470588235294119" blue="0.96470588235294119" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

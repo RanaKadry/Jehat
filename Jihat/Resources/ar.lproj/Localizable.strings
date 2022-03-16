@@ -1,0 +1,291 @@
+/* 
+  Localizable.strings
+  Jihat
+
+  Created by Peter Bassem on 13/09/2021.
+  
+*/
+
+// MARK: - General
+"done" = "تم";
+"cancel" = "إلغاء";
+"save" = "حفظ";
+"continue" = "استمر";
+"next" = "التالى";
+"back" = "السابق";
+"egp" = "جم";
+"choose_image_source" = "اختار مصدر الصورة";
+"choose_video_source" = "اختار مصدر الفيديو";
+"camera" = "الكاميرا";
+"gallary" = "المعرض";
+"warning" = "تحذير";
+"ok" = "حسناً";
+"no_images" = "معذرة! لا توجد صور هنا!";
+"server_error" = "خطأ في النظام";
+"location_denied_title" = "لم يتم تمكين خدمة الموقع لـ Jehat";
+"notauthorized" = "مستخدم غير مصرح له، برجاء تسجيل الدخول";
+"app_settings" = "فتح الإعدادات؟";
+"settings" = "الإعدادات";
+"jihat_app" = "تطبيق جهات";
+"language.english" = "En";
+"language.arabic" = "Ar";
+"whatsapp_not_installed" = "ليس لديك واتساب مثبتاً! \nالرجاء تثبيته أولاً.";
+"yes" = "نعم";
+"no" = "لا";
+"finish" = "إنهاء";
+"info" = "معلومة";
+
+// MARK: - LoginViewController
+"login_as_agent" = "الدخول كموظف";
+"username" = "رقم المستخدم";
+"password" = "كلمة المرور";
+"forget_password" = "نسيت كلمة المرور؟";
+"login" = "تسجيل الدخول";
+"create_new_account" = "انشاء حساب جديد";
+"skip" = "تخطى";
+"brought_by" = "مقدم لكم برعاية";
+
+// MARK: - ForgetPasswordViewController
+"forget_password" = "نسيت كلمة المرور";
+"reset_password" = "إعادة تعيين كلمة المرور";
+
+// MARK: - RegisterViewController
+"inside_country" = "داخل المملكة";
+"outside_country" = "خارج المملكة";
+"arabic_fullname" = "الإسم الثلاثي بالعربية";
+"english_fullname" = "الإسم الثلاثي بالإنجليزية";
+"reg_gender" = "النوع (إختيارى)";
+"select_country" = "الجنسية (إختيارى)";
+"id" = "رقم المستخدم";
+"id_info" = "رقم المستخدم مطلوب، من فضلك ادخل رقم مميز (رقم الهوية) حتي تتمكن من تسجيل الدخول به \nيجب أن يتكون من ٨ أرقام على الأقل";
+"create_password" = "إنشاء كلمة المرور";
+"mobile" = "الجوال";
+"email" = "البريد الإلكترونى";
+
+// MARK: - PhoneVerificationViewController
+"account_confirm" = "تأكيد الحساب";
+"code_sent" = "تم ارسال كود التفعيل على البريد الالكتروني الخاص بك";
+"enter_code" = "يرجى ادخال كود التفعيل للمتابعة";
+"resend_code" = "إعادة الارسال";
+"submit" = "المتابعة";
+
+// MARK: - SuccessfullRegisterViewController
+"success_register" = "لقد تم تسجيل حسابك بنجاح";
+"you_can_use_app" = "الان يمكنك استخدام تطبيق جهات الوسيلة الأسرع للتواصل مع كافة الجهات";
+"thank_you" = "شكرا";
+
+// MARK: - HomeViewController
+"contact_jihat" = "تواصل مع جهات";
+"my_orders" = "طلباتي";
+"my_meetings" = "إجتماعاتي";
+"my_calendar" = "مواعيدي";
+"search" = "بحث...";
+"order_number" = "رقم الطلب";
+"expected_completion_date" = "تاريخ الإنجاز المتوقع";
+"order_status" = "حالة الطلب";
+"jandalah_company" = "شركة جندلة للخدمات العامة";
+"show_details" = "اظهر التفاصيل...";
+"empty.orders_title" = "لا يوجد شئ فى طباتي!";
+"empty.orders_subtitles" = "قم بإنشاء طلب وسيظهر هنا.";
+"empty.meetings_title" = "لا شيء في الاجتماعات!";
+"empty.meetings_subtitles" = "أى إجتماعات جديدة سوف تظهر هنا.";
+"empty.calendars_title" = "لا شيء في المواعيد!";
+"empty.calendars_subtitles" = "قم بإنشاء موعد وسيظهر هنا.";
+"meeting_day_date" = "الأحد ٢٧/٠٣/٢٠٢١";
+"meeting_title" = "عنوان الاجتماع";
+"meeting_status" = "جديد";
+"meeting_time" = "من ١١:٠٠ إلى ١٤:٠٠";
+"annual_board_meeting" = "اجتماع مجلس الإدارة السنوي";
+"add_new_order" = "إضافة طلب جديد";
+"add_new_appointment" = "إضافة موعد جديد";
+"logout_confirm" = "هل أنت متأكد أنك تريد تسجيل الخروج؟";
+"logout_confirm_message" = "لاحظنا أنك قمت بتسجيل الدخول من جهاز آخر. يجب عليك تسجيل الخروج وتسجيل الدخول مرة أخرى لاستخدام Jehat من هذا الجهاز.";
+
+// MARK: - Sidemenu Items
+"welcome" = "أهلاً";
+"edit_profile" = "تعديل البيانات الشخصية";
+"add_order" = "إضافة طلب";
+"delegates_list" = "قائمة المفوضين";
+"documents" = "المستندات";
+"contact_us" = "تواصل معنا";
+"logout" = "الخروج";
+
+// MARK: - ProfileViewController
+"profile" = "البيانات الشخصية";
+"select_nationality" = "انقر لاختيار الجنسية";
+"gender" = "النوع";
+"select_gender" = "انقر لاختيار النوع";
+"male" = "ذكر";
+"female" = "انثي";
+"id_number" = "رقم الهوية";
+"address" = "الموضوع";
+"add_address" = "أضف عنوان";
+"fax" = "الفاكس";
+"add_fax_number" = "أضف رقم الفاكس";
+"save_changes" = "حفظ التغييرات";
+"discard_changes" = "إلغاء التغييرات";
+
+// MARK: - OrderDetailsViewController
+"order_subject" = "موضوع الطلب";
+"order_details" = "تفاصيل الطلب";
+"order_updates" = "مستجدات الطلب";
+"order_creation_date" = "تاريخ إضافة الطلب:";
+"order_destination" = "الجهة الموجه لها الطلب";
+"jihat_comapny_for_it" = "شركة جندلة لتقنية المعلومات";
+"order_type" = "نوع الطلب";
+"hr_department" = "اداره الموارد البشريه";
+"subject" = "الموضوع";
+"subject_request" = "موضوع الطلب";
+"open_for_work" = "هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على الشكل الخارجي للنص أو شكل توضع الفقرات في الصفحة التي يقرأها. ولذلك يتم استخدام طريقة لوريم إيبسوم لأنها تعطي توزيعاَ طبيعياَ -إلى حد ما- للأحرف عوضاً عن استخدام هنا يوجد محتوى نصي، هنا يوجد محتوى نصي فتجعلها تبدو (أي الأحرف) وكأنها نص مقروء. العديد من برامح النشر المكتبي وبرامح تحرير صفحات الويب تستخدم لوريم إيبسوم بشكل إفتراضي كنموذج عن النص، وإذا قمت بإدخال في أي محرك بحث ستظهر العديد من المواقع الحديثة العهد في نتائج البحث. على مدى السنين ظهرت نسخ جديدة ومختلفة من نص لوريم إيبسوم، أحياناً عن طريق الصدفة، وأحياناً عن عمد كإدخال بعض العبارات الفكاهية إليها.";
+"order_priority" = "الأولوية للطلب";
+"normal_priority" = "عادية";
+"requested_employee" = "اسم الموظف القائم على الطلب";
+"name" = "مازن عبد الغنى";
+"attached_documents" = "المستندات المرفقة";
+"number" = "عدد";
+"attached_files" = "ملفات مرفقة";
+"send_text_message" = "رسالة نصية";
+"send_voice_note" = "رسالة صوتية";
+"Send_attatchment" = "ارفاق ملف";
+
+// MARK: - AddTextViewController
+"add_text_note" = "أضف رسالة نصية";
+"text_note" = "رسالة نصية";
+
+// MARK: - AddVoiceNoteViewController
+"add_new_record" = "إضافة رسالة صوتية";
+"add_comment" = "أضف تعليق (اختياري)";
+"reset_record" = "إعادة ضبط";
+
+// MARK: - AddAttachmentsViewController
+"add_attachments" = "إضافة ملحقات";
+"add_documents" = "إضافة مرفقات";
+"add_images" = "إضافة صور";
+
+// MARK: - NewOrderViewController
+"directed_entity" = "الجهة الموجه لها الطلب";
+"choose_from_list" = "اختر من القائمة";
+"topic" = "الموضوع";
+"tap_to_insert" = "انقر للادخال";
+"order_details" = "تفاصيل الطلب";
+"attached_documents" = "المستندات المرفقة";
+"browse_from_mobile" = "تصفح من علي جوالك";
+"order_type" = "نوع الطلب";
+"order_priority" = "أولوية الطلب";
+"send_order" = "ارسال الطلب";
+"save_as_draft" = "حفظ المسودة";
+"letter" = "حرف";
+"are_you_sure" = "هل أنت متأكد؟";
+"dismiss_message" = "ستفقد جميع البيانات التي أدخلتها ، هل أنت متأكد أنك تريد إلغاء هذه العملية؟";
+"order_added_successfully" = "لقد تم ارسال الطلب بنجاح!";
+"order_added_successfully_message" = "لقد تم ارسال الطلب بنجاح و سيتم اشعارك بمستجدات الطلب على هاتفك الجوال";
+
+// MARK: - NewAppointmentViewController
+"appointment_details" = "تفاصيل الموعد";
+"start_date" = "موعد البدء";
+"alert_type" = "نوع التنبيه";
+"save_appointment" = "حفظ الموعد";
+"tap_to_set_date" = "انقر لضبط التاريخ";
+"tap_to_set_time" = "انقر لضبط الوقت";
+
+// MARK: - AppointmentDetailsViewController
+"appointment_title" = "عنوان الموعد";
+"appointment_date" = "تاريخ الموعد";
+"appointment_time" = "وقت الموعد";
+
+// MARK: - FilterOrderViewController
+"filter_orders_according_status" = "تصفية الطلبات حسب الحالة المحددة";
+
+// MARK: - FilterMeetingViewController
+"filter_meetings_according_status" = "تصفية الإجتماعات حسب الحالة المحددة";
+
+// MARK: - FilterAppointmentViewController
+"search_specific_date_range" = "البحث وفق نطاق زمني محدد";
+"filter_start_date" = "تاريخ البدء";
+"filter_end_date" = "تاريخ الإنتهاء";
+"filter" = "فلتر";
+
+// MARK: - DelegatesListViewController
+"add_new_delegate" = "إضافة مفوض جديد";
+"edit_delegate" = "تعديل بيانات المفوض";
+"edit" = "تعديل";
+"share" = "مشاركة";
+"delete" = "حذف";
+"empty.delegates_title" = "لا يوجد شئ فى قائمة المفوضين";
+"empty.delegates_subtitles" = "قم بإنشاء مفوض وسيظهر هنا.";
+
+// MARK: - DocumentsViewController
+"search_documents" = "بحث المستندات";
+"add_new_document" = "إضافة مستند جديد";
+"document_number" = "رقم المستند: ";
+"end_date" = "تاريخ الانتهاء: ";
+"empty.documents_title" = "لا يوجد شئ فى مستنداتي!";
+"empty.documents_subtitles" = "قم بإنشاء مستند وسيظهر هنا.";
+"no_search_results" = "لا توجد نتائج للبحث!";
+"no_search_documents" = "لا يمكننا العثور على العنصر الذي تبحث عنه ، ربما خطأ إملائي بسيط؟";
+
+// MARK: - AddNewDocumentViewController
+"document_arabic_name" = "اسم المستند بالعربية";
+"document_english_name" = "اسم المستند بالانجليزية";
+"take_picture" = "اخذ صورة";
+"document_num" = "رقم المستند";
+"expire_date" = "تاريخ الانتهاء";
+"images_selected" = "صور مُحددة";
+"attachments_selected" = "مرفقات مُحددة";
+
+// MARK: - EditDocumentViewController
+"edit_document" = "تعديل بيانات المستند";
+"edit_attachments_tip" = "تلميح: يمكنك حذف مرفق من خلال النقر مطولاً على المرفق الذي تريد حذفه.";
+"are_you_sure_delete" = "هل أنت متأكد من حذف هذا المرفق؟";
+"delete" = "حذف";
+
+// MARK: - UserMeetingDetailsViewController
+"meeting_subject" = "موضوع الإجتماع";
+"meeting_details" = "تفاصيل";
+"meeting_terms" = "التصويت";
+"meeting_candidates" = "المرشحين";
+
+// MARK: - MeetingDetailsViewController
+"meeting_manager" = "رئيس الاجتماع";
+"introduction_to_the_meeting" = "مقدمة عن الاجتماع";
+"meeting_date" = "تاريخ الاجتماع";
+"meeting_time" = "وقت الاجتماع";
+"entities_employees"= "منسوبي الجهات";
+"meeting_members" = "اعضاء الاجتماع";
+"attendance_rate" = "نسبة الحضور";
+"attend" = "حاضر";
+"absent" = "غائب";
+"meeting_attachments" = "مرفقات الاجتماع";
+"attend_the_meeting" = "حضور الاجتماع";
+"attend_meeting_first" = "يجب عليك حضور الاجتماع أولا";
+"vote_ended" = "انتهى الاجتماع";
+"present" = "حاضر";
+"absent" = "غائب";
+
+// MARK: - MeetingClausesViewController
+"vote_required" = "مطلوب التصويت";
+"been_voted" = "تم التصويت";
+"vote_numbers" = "عدد الاصوات";
+"approvers" = "موافقين";
+"disapproves" = "غير موافقين";
+
+// MARK: - VoteRequiredViewController
+"vote" = "تصويت";
+"agree" = "موافق";
+"disagree" = "غير موافق";
+"comment" = "تعليق";
+
+// MARK: - CandidatesViewController
+"candidates.type.candidatesShares_title" = "اجتماعات الجمعيه العموميه ماعدا الشركات";
+"choose" = "إختر عدد";
+"candidates" = "مرشحين";
+"shares_number" = "عدد الأسهم";
+"exceed_candidate_shares" = "لقد تجاوزت الحد الأقصى لاختيار المرشحين";
+"candidates.type.candidatesDistribution_title" = "اجتماعات الجمعيه العموميه للشركات";
+"number_of_shares" = "عدد الأسهم الخاصة بك";
+"other_number_of_shares" = "عدد الأسعهم الخاصة ب";
+
+// NARK: - GuestViewController
+"welcome_to_jehat" = "مرحباً فى چيهات";
+"guest_view_message" = "تطبيق جهات الذي يتيح للمستخدم العديد من الخدمات مثل اضافه مواعيده ومستنداته وطلباته وسهوله متابعتها وخدمات أخرى";
+"login_alert" = "يجب عليك تسجيل الدخول أو إنشاء حساب أولاً لإكمال تقديم طلبك.";

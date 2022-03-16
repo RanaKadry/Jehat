@@ -1,0 +1,94 @@
+PODS:
+  - Alamofire (5.0.5)
+  - FlagPhoneNumber (0.8.0):
+    - FlagPhoneNumber/libPhoneNumberiOS (= 0.8.0)
+  - FlagPhoneNumber/libPhoneNumberiOS (0.8.0)
+  - ImagePicker (3.2.0)
+  - IQKeyboardManagerSwift (6.5.6)
+  - Kingfisher (6.3.1)
+  - LabelSwitch (0.1.7)
+  - MarqueeLabel (4.0.5)
+  - MBRadioCheckboxButton (2.0)
+  - NotificationBannerSwift (3.0.6):
+    - MarqueeLabel (~> 4.0.5)
+    - SnapKit (~> 5.0.1)
+  - PromisedFuture (1.0.2)
+  - PryntTrimmerView (4.0.0)
+  - SideMenu (6.5.0)
+  - SkeletonView (1.21.2)
+  - SnapKit (5.0.1)
+  - SoundWave (0.1.4)
+  - SteviaLayout (4.7.3)
+  - SwiftLint (0.43.1)
+  - TTGSnackbar (1.10.5)
+
+DEPENDENCIES:
+  - Alamofire (~> 5.0.0-rc.3)
+  - FlagPhoneNumber
+  - ImagePicker (from `https://github.com/hyperoslo/ImagePicker.git`)
+  - IQKeyboardManagerSwift
+  - Kingfisher
+  - LabelSwitch
+  - MBRadioCheckboxButton
+  - NotificationBannerSwift (~> 3.0.0)
+  - PromisedFuture
+  - PryntTrimmerView (= 4.0.0)
+  - SideMenu (~> 6.0)
+  - SkeletonView
+  - SoundWave
+  - SteviaLayout
+  - SwiftLint
+  - TTGSnackbar
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - FlagPhoneNumber
+    - IQKeyboardManagerSwift
+    - Kingfisher
+    - LabelSwitch
+    - MarqueeLabel
+    - MBRadioCheckboxButton
+    - NotificationBannerSwift
+    - PromisedFuture
+    - PryntTrimmerView
+    - SideMenu
+    - SkeletonView
+    - SnapKit
+    - SoundWave
+    - SteviaLayout
+    - SwiftLint
+    - TTGSnackbar
+
+EXTERNAL SOURCES:
+  ImagePicker:
+    :git: https://github.com/hyperoslo/ImagePicker.git
+
+CHECKOUT OPTIONS:
+  ImagePicker:
+    :commit: d8a8f840380b9a28230c8fcad277adb458706d0a
+    :git: https://github.com/hyperoslo/ImagePicker.git
+
+SPEC CHECKSUMS:
+  Alamofire: df2f8f826963b08b9a870791ad48e07a10090b2e
+  FlagPhoneNumber: 3712455b95f66cb0f2016fef7d9e34cddf8c7f9a
+  ImagePicker: 1d950bbb2422548ed58791b4ec7f42fe42920511
+  IQKeyboardManagerSwift: c7df9d2deb356c04522f5c4b7b6e4ce4d8ed94fe
+  Kingfisher: 016c8b653a35add51dd34a3aba36b580041acc74
+  LabelSwitch: 97b19eb5e11b27854559374357375134d40c744f
+  MarqueeLabel: 00cc0bcd087111dca575878b3531af980559707d
+  MBRadioCheckboxButton: 6e2a2cdc441e292e45b64c4e65eb8fc1fc05eef2
+  NotificationBannerSwift: 7021be2338f8f29cf424b0aca43da462bf9e2a1a
+  PromisedFuture: 15ab3542f9d9c9d62886e2228c606a3e0fd16ccd
+  PryntTrimmerView: 67e67573ffd4c073f1308effa66aefd0cfa667a0
+  SideMenu: f583187d21c5b1dd04c72002be544b555a2627a2
+  SkeletonView: a085533443fed0198309f1979780afb6e80eaedd
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
+  SoundWave: d98ffaa863570b29d991da32a09b7ce1b4aaf2d4
+  SteviaLayout: c2ecdcff57d44e38fd2f65e54ad52aeae28ca0c4
+  SwiftLint: 99f82d07b837b942dd563c668de129a03fc3fb52
+  TTGSnackbar: 2bd245d2bbf83639483410273fd936af0b7ba2a9
+
+PODFILE CHECKSUM: 4d751e51ca43d1e79f977d953e14e4b289a9f0aa
+
+COCOAPODS: 1.11.2

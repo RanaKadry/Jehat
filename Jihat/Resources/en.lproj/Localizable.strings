@@ -1,0 +1,291 @@
+/*
+  Localizable.strings
+  Jihat
+
+  Created by Peter Bassem on 13/09/2021.
+  
+*/
+
+// MARK: - General
+"done" = "Done";
+"cancel" = "Cancel";
+"save" = "Save";
+"continue" = "Continue";
+"next" = "Next";
+"back" = "Back";
+"egp" = "L.E.";
+"choose_image_source" = "Choose Image Source";
+"choose_video_source" = "Choose Video Source";
+"camera" = "Camera";
+"gallary" = "Gallery";
+"warning" = "Warning";
+"ok" = "Ok";
+"no_images" = "Sorry! There are no images here!";
+"server_error" = "Server Error";
+"notauthorized" = "Not Authorized User, Please Relogin";
+"location_denied_title" = "Location Service is not enabled for Jehat";
+"app_settings" = "Open Settings?";
+"settings" = "Settings";
+"jihat_app" = "Jehat App";
+"language.english" = "En";
+"language.arabic" = "Ar";
+"whatsapp_not_installed" = "You do not have WhatsApp installed! \nPlease install it first.";
+"yes" = "Yes";
+"no" = "No";
+"finish" = "Finish";
+"info" = "Information";
+
+// MARK: - LoginViewController
+"login_as_agent" = "Login As Agent";
+"username" = "User number";
+"password" = "Password";
+"forget_password" = "Forgot Password?";
+"login" = "Login";
+"create_new_account" = "Create New Account";
+"skip" = "Skip";
+"brought_by" = "Brought to you by";
+
+// MARK: - ForgetPasswordViewController
+"forget_password" = "Forget Password";
+"reset_password" = "Reset Password";
+
+// MARK: - RegisterViewController
+"inside_country" = "Inside Country";
+"outside_country" = "Outside Country";
+"arabic_fullname" = "Arabic Fullname";
+"english_fullname" = "English Fullname";
+"reg_gender" = "Gender (Optional)";
+"select_country" = "Nationality (Optional)";
+"id" = "User number";
+"id_info" = "User number field is required, Please insert a unique number because you will use it for login. \nIt must be at least 8 numbers";
+"create_password" = "Create Password";
+"mobile" = "Mobile Number";
+"email" = "Email Address";
+
+// MARK: - PhoneVerificationViewController
+"account_confirm" = "Account Confirmation";
+"code_sent" = "The activation code has been sent to your email";
+"enter_code" = "Please enter the activation code to continue";
+"resend_code" = "Resend Code";
+"submit" = "Submit";
+
+// MARK: - SuccessfullRegisterViewController
+"success_register" = "Your account has been successfully registered";
+"you_can_use_app" = "Now you can use the Jehat App, the fastest way to communicate with all parties";
+"thank_you" = "Thank you";
+
+// MARK: - HomeViewController
+"contact_jihat" = "Contact with Jehat";
+"my_orders" = "My Orders";
+"my_meetings" = "My Meetings";
+"my_calendar" = "My Calendar";
+"search" = "Search...";
+"order_number" = "Order Number";
+"expected_completion_date" = "Expected Completion Date";
+"order_status" = "Order Status";
+"jandalah_company" = "Jandalah General Services Company";
+"show_details" = "Show Details...";
+"empty.orders_title" = "Nothing in Orders!";
+"empty.orders_subtitles" = "Create an Order and it will show up here.";
+"empty.meetings_title" = "Nothing in Meetings!";
+"empty.meetings_subtitles" = "Any new meetings will appear here.";
+"empty.calendars_title" = "Nothing in Calendars!";
+"empty.calendars_subtitles" = "Create an Appointment and it will show up here.";
+"meeting_day_date" = "Sunday 27/03/2021";
+"meeting_title" = "Meeting Title";
+"meeting_status" = "New";
+"meeting_time" = "From 11:00 to 14:00";
+"annual_board_meeting" = "Annual Board Meeting";
+"add_new_order" = "Add New Order";
+"add_new_appointment" = "Add New Appointment";
+"logout_confirm" = "Are you sure you want to logout?";
+"logout_confirm_message" = "We noticed that you logged in from another device. You must logout and login again to use Jehat from that device.";
+
+// MARK: - Sidemenu Items
+"welcome" = "Welcome";
+"edit_profile" = "Edit Profile";
+"add_order" = "Add Order";
+"delegates_list" = "Delegates List";
+"documents" = "Documents";
+"contact_us" = "Contact Us";
+"logout" = "Logout";
+
+// MARK: - ProfileViewController
+"profile" = "Profile";
+"select_nationality" = "Tap To Select Nationality";
+"gender" = "Gender";
+"select_gender" = "Tap To Select Gender";
+"male" = "Male";
+"female" = "Female";
+"id_number" = "ID Number";
+"address" = "Subject";
+"add_address" = "Add Address";
+"fax" = "Fax";
+"add_fax_number" = "Add Fax Number";
+"save_changes" = "Save Changes";
+"discard_changes" = "Discard Changes";
+
+// MARK: - OrderDetailsViewController
+"order_subject" = "Order Subject";
+"order_details" = "Order Details";
+"order_updates" = "Order Updates";
+"order_creation_date" = "Order Creation Date:";
+"order_destination" = "The party to whom the request is directed";
+"jihat_comapny_for_it" = "Jandalah company for Information Technology";
+"order_type" = "Order Type";
+"hr_department" = "Human Resources department";
+"subject" = "Subject";
+"subject_request" = "Subject of request";
+"open_for_work" = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.";
+"order_priority" = "Order Priority";
+"normal_priority" = "Normal";
+"requested_employee" = "Assigned employee name";
+"name" = "Mazen Abd-el Ghany";
+"attached_documents" = "Attached documents";
+"number" = "";
+"attached_files" = "attached files";
+"send_text_message" = "Text";
+"send_voice_note" = "Voice Note";
+"Send_attatchment" = "Attachment";
+
+// MARK: - AddTextViewController
+"add_text_note" = "Add Text Note";
+"text_note" = "Text Note";
+
+// MARK: - AddVoiceNoteViewController
+"add_new_record" = "Add Voice Note";
+"add_comment" = "Add Comment (Optional)";
+"reset_record" = "Reset";
+
+// MARK: - AddAttachmentsViewController
+"add_attachments" = "Add Attachments";
+"add_documents" = "Add Documents";
+"add_images" = "Add Images";
+
+// MARK: - NewOrderViewController
+"directed_entity" = "Entity That The Request Directed To";
+"choose_from_list" = "Choose From The List";
+"topic" = "Topic";
+"tap_to_insert" = "Tap To Insert";
+"order_details" = "Order Details";
+"attached_documents" = "Attached Documents";
+"browse_from_mobile" = "Browse From Mobile";
+"order_type" = "Order Type";
+"order_priority" = "Order Priority";
+"send_order" = "Send Order";
+"save_as_draft" = "Save As Draft";
+"letter" = "Letter";
+"are_you_sure" = "Are you sure?";
+"dismiss_message" = "You will lose all data you entered, are you sure you want to cancel this process?";
+"order_added_successfully" = "The request has been sent successfully!";
+"order_added_successfully_message" = "The request has been sent successfully and you will be notified of the progress of the request on your mobile phone";
+
+// MARK: - NewAppointmentViewController
+"appointment_details" = "Appointment Details";
+"start_date" = "Start Date";
+"alert_type" = "Alert Type";
+"save_appointment" = "Save Appointment";
+"tap_to_set_date" = "Tap To Set Date";
+"tap_to_set_time" = "Tap To Set Time";
+
+// MARK: - AppointmentDetailsViewController
+"appointment_title" = "Appointment Title";
+"appointment_date" = "Appointment Date";
+"appointment_time" = "Appointment Time";
+
+// MARK: - FilterOrderViewController
+"filter_orders_according_status" = "Filter Tickets according to specific Status";
+
+// MARK: - FilterMeetingViewController
+"filter_meetings_according_status" = "Filter Meetings according to specific Status";
+
+// MARK: - FilterAppointmentViewController
+"search_specific_date_range" = "Search according to a specific date range";
+"filter_start_date" = "Start Date";
+"filter_end_date" = "End Date";
+"filter" = "Filter";
+
+// MARK: - DelegatesListViewController
+"add_new_delegate" = "Add New Delegate";
+"edit_delegate" = "Edit Delegate Data";
+"edit" = "Edit";
+"share" = "Share";
+"delete" = "Delete";
+"empty.delegates_title" = "Nothing in Delegates List!";
+"empty.delegates_subtitles" = "Create an Delegate and it will show up here.";
+
+// MARK: - DocumentsViewController
+"search_documents" = "Search Documents";
+"add_new_document" = "Add New Document";
+"document_number" = "Document No.: ";
+"end_date" = "End Date: ";
+"empty.documents_title" = "Nothing in Documents!";
+"empty.documents_subtitles" = "Create an Document and it will show up here.";
+"no_search_results" = "No Search Results!";
+"no_search_documents" = "We cannot find the item you are searching for, maybe a little spelling mistake?";
+
+// MARK: - AddNewDocumentViewController
+"document_arabic_name" = "Document name in Arabic";
+"document_english_name" = "Document name in english";
+"take_picture" = "Take a Picture";
+"document_num" = "Document Number";
+"expire_date" = "End Date";
+"images_selected" = "Images Selected";
+"attachments_selected" = "Attachments Selected";
+
+// MARK: - EditDocumentViewController
+"edit_document" = "Edit Document Data";
+"edit_attachments_tip" = "TIP: you can delete an attachment by clicking long press on the attachment you want to delete.";
+"are_you_sure_delete" = "Are you sure you want to delete that Attachment?";
+"delete" = "Delete";
+
+// MARK: - UserMeetingDetailsViewController
+"meeting_subject" = "Meeting Subject";
+"meeting_details" = "Details";
+"meeting_terms" = "Meeting Terms";
+"meeting_candidates" = "Candidates";
+
+// MARK: - MeetingDetailsViewController
+"meeting_manager" = "Meeting Manager";
+"introduction_to_the_meeting" = "Introduction To The Meeting";
+"meeting_date" = "Meeting Date";
+"meeting_time" = "Meeting Time";
+"entities_employees"= "Entities Employees";
+"meeting_members" = "Meeting Members";
+"attendance_rate" = "Attendance Rate";
+"attend" = "Attend";
+"absent" = "Absent";
+"meeting_attachments" = "Meeting Attachments";
+"attend_the_meeting" = "Attend The Meeting";
+"attend_meeting_first" = "You must attend meeting first";
+"vote_ended" = "The meeting is ended";
+"present" = "Present";
+"absent" = "Absent";
+
+// MARK: - MeetingClausesViewController
+"vote_required" = "Vote Required";
+"been_voted" = "Been Voted";
+"vote_numbers" = "Vote Numbers";
+"approvers" = "Approvers";
+"disapproves" = "Disapproves";
+
+// MARK: - VoteRequiredViewController
+"vote" = "Vote";
+"agree" = "Agree";
+"disagree" = "Disagree";
+"comment" = "Comment";
+
+// MARK: - CandidatesViewController
+"candidates.type.candidatesShares_title" = "General assembly meetings, except for companies";
+"choose" = "Choose";
+"candidates" = "Candidates";
+"shares_number" = "Shares No.";
+"exceed_candidate_shares" = "You have exceeded maximum candidates selection";
+"candidates.type.candidatesDistribution_title" = "Corporate general assembly meetings";
+"number_of_shares" = "The number of your shares";
+"other_number_of_shares" = "The number of shares of";
+
+// NARK: - GuestViewController
+"welcome_to_jehat" = "Welcome to Jehat";
+"guest_view_message" = "Jehat App allows userto do many services such as adding his appointments, documents, requests, ease of follow-up, and other services";
+"login_alert" = "You must login or create account first to complete submitting your request.";
